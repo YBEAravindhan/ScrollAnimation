@@ -1,13 +1,10 @@
-import './App.css';
-import FlipLayout from './Components/FlipLayout';
-import InteractiveSvg from './Components/InteractiveSvg';
-
+import "./App.css";
+import ShowcasingCurated from "./Components/ShowcasingCurated";
 
 function App() {
   return (
     <div className="App">
-      {/* <FlipLayout/> */}
-      <InteractiveSvg/>
+      <ShowcasingCurated />
     </div>
   );
 }
